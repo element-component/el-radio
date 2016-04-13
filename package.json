@@ -2,7 +2,7 @@
   "name": "el-radio",
   "version": "0.0.2",
   "description": "A el-radio component for Vue.",
-  "main": "build/",
+  "main": "dist/",
   "scripts": {
     "test": "element-toolbox test --single-run"
   },
