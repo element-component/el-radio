@@ -18,6 +18,9 @@ test:
 push:
 	element-toolbox push
 
+publish:
+	element-toolbox publish
+
 test-single:
 	element-toolbox test --single-run
 
