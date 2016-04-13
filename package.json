@@ -1,6 +1,6 @@
 {
   "name": "el-radio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A el-radio component for Vue.",
   "main": "build/",
   "scripts": {
