@@ -13,7 +13,7 @@ npm i el-radio -D
 ```javascript
 import Vue from 'vue'
 import ElRadio from 'el-radio'
-import 'element-theme-default'
+import 'element-theme-default/dist/radio.css'
 
 Vue.use(ElRadio)
 ```
@@ -29,10 +29,12 @@ Vue.component('el-radio', ElRadio)
 
 
 ## Options
-
-|     name    | description |     type    |   default   |
-|-------------|-------------|-------------|-------------|
-|             |             |             |             |
+| 参数      | 说明    | 类型      | 可选值       | 默认值   |
+|---------- |-------- |---------- |-------------  |-------- |
+| model     | 绑定值   | string  |               |         |
+| value     | 真实值   | string    |               |         |
+| label     | 显示值，默认显示 value   | string    |               |         |
+| disabled  | 禁用    | boolean   | true, false   | false   |
 
 ## Development
 ```shell

@@ -11,7 +11,7 @@
 
     data() {
       return {
-
+        radio: '选中且禁用'
       };
     }
   };

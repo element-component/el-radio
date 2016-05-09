@@ -1,4 +1,4 @@
-const ElRadio = require('./component');
+const ElRadio = require('./radio');
 
 module.exports = {
   ElRadio,
