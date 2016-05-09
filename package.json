@@ -1,0 +1,27 @@
+{
+  "name": "el-radio",
+  "version": "0.0.0",
+  "description": "A radio component for Vue.js.",
+  "keywords": [
+    "element",
+    "vue",
+    "component"
+  ],
+  "scripts": {
+    "dev": "element-toolbox watch",
+    "dist": "element-toolbox build",
+    "test": "element-toolbox test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/element-component/el-radio.git"
+  },
+  "homepage": "https://github.com/element-component/el-radio#readme",
+  "bugs": {
+    "url": "https://github.com/element-component/el-radio/issues"
+  },
+  "author": "qingwei-li<qingwei.li@ele.me>",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
