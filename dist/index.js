@@ -69,7 +69,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = "<label block=element-radio> <span elem=input> <span elem=inner :class=\"{\n        'is-disabled': disabled,\n        'is-checked': model === value\n      }\"></span> <input elem=original :value=value type=radio v-model=model :disabled=disabled> </span> <span elem=label v-text=\"label || value\"></span> </label>";
+	module.exports = "<label class=element-radio> <span class=element-radio__input> <span :class=\"{\n        'is-disabled': disabled,\n        'is-checked': model === value\n      }\" class=element-radio__inner></span> <input :value=value type=radio v-model=model :disabled=disabled class=element-radio__original> </span> <span v-text=\"label || value\" class=element-radio__label></span> </label>";
 
 /***/ },
 /* 2 */
