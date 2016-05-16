@@ -36,12 +36,7 @@ cooking.add('vue.loaders.html', 'vue-html-loader!posthtml-loader');
 
 if (process.env.NODE_ENV === 'production') {
   cooking.add('externals', {
-    vue: {
-      root: 'Vue',
-      commonjs: 'vue',
-      commonjs2: 'vue',
-      amd: 'vue'
-    }
+    vue: 'Vue'
   });
 }
 
