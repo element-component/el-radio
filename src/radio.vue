@@ -34,6 +34,7 @@
 
 <template>
   <label
+    :class="{ 'is-checked': model === value }"
     block="element-radio">
     <span elem="input">
       <span
